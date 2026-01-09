@@ -3,7 +3,11 @@
 
 # 📄 PDF-based Retrieval Augmented Generation (RAG) System
 
+<<<<<<< HEAD
 ## 📌 Project Overview
+=======
+##  Project Overview
+>>>>>>> 17b932b0420514afcb49ba5a14b101cde39fbb79
 
 This project is a **PDF-based Retrieval Augmented Generation (RAG) system** that allows users to upload PDF documents and ask questions strictly based on the content of those documents. The system prevents hallucinations by ensuring that answers are generated **only from retrieved document context**.
 
@@ -11,7 +15,11 @@ An interactive **Streamlit UI** is integrated, enabling users to upload their ow
 
 ---
 
+<<<<<<< HEAD
 ## 🚀 Features
+=======
+##  Features
+>>>>>>> 17b932b0420514afcb49ba5a14b101cde39fbb79
 
 * Upload and process PDF documents through a user-friendly UI
 * Extract text from PDFs and split it into semantic chunks
@@ -23,7 +31,11 @@ An interactive **Streamlit UI** is integrated, enabling users to upload their ow
 
 ---
 
+<<<<<<< HEAD
 ## 🧠 How the RAG Pipeline Works
+=======
+##  How the RAG Pipeline Works
+>>>>>>> 17b932b0420514afcb49ba5a14b101cde39fbb79
 
 1. **PDF Upload**
    Users upload PDF files via the Streamlit interface.
@@ -48,7 +60,11 @@ An interactive **Streamlit UI** is integrated, enabling users to upload their ow
 
 ---
 
+<<<<<<< HEAD
 ## 🖥️ User Interface (UI)
+=======
+## User Interface (UI)
+>>>>>>> 17b932b0420514afcb49ba5a14b101cde39fbb79
 
 * Built using **Streamlit**
 * Allows users to:
@@ -59,7 +75,11 @@ An interactive **Streamlit UI** is integrated, enabling users to upload their ow
 
 ---
 
+<<<<<<< HEAD
 ## 🛠️ Tech Stack
+=======
+## Tech Stack
+>>>>>>> 17b932b0420514afcb49ba5a14b101cde39fbb79
 
 * **Programming Language:** Python
 * **LLM:** Google Gemini Flash Lite
@@ -72,7 +92,11 @@ An interactive **Streamlit UI** is integrated, enabling users to upload their ow
 
 ---
 
+<<<<<<< HEAD
 ## 📂 Project Structure
+=======
+## Project Structure
+>>>>>>> 17b932b0420514afcb49ba5a14b101cde39fbb79
 
 ```
 Rag_Langchain_Project/
@@ -87,7 +111,11 @@ Rag_Langchain_Project/
 
 ---
 
+<<<<<<< HEAD
 ## 🔐 Environment Setup
+=======
+## Environment Setup
+>>>>>>> 17b932b0420514afcb49ba5a14b101cde39fbb79
 
 Create a `.env` file in the project root and add:
 
@@ -95,6 +123,7 @@ Create a `.env` file in the project root and add:
 GOOGLE_API_KEY=your_google_gemini_api_key
 ```
 
+<<<<<<< HEAD
 > ⚠️ Do not commit the `.env` file to GitHub.
 
 ---
@@ -102,18 +131,35 @@ GOOGLE_API_KEY=your_google_gemini_api_key
 ## ▶️ How to Run the Project
 
 ### 1️⃣ Install Dependencies
+=======
+>  Do not commit the `.env` file to GitHub.
+
+---
+
+##  How to Run the Project
+
+### 1️ Install Dependencies
+>>>>>>> 17b932b0420514afcb49ba5a14b101cde39fbb79
 
 ```
 pip install -r requirements.txt
 ```
 
+<<<<<<< HEAD
 ### 2️⃣ Run the Streamlit App
+=======
+### 2️ Run the Streamlit App
+>>>>>>> 17b932b0420514afcb49ba5a14b101cde39fbb79
 
 ```
 streamlit run ui.py
 ```
 
+<<<<<<< HEAD
 ### 3️⃣ Use the Application
+=======
+### 3️ Use the Application
+>>>>>>> 17b932b0420514afcb49ba5a14b101cde39fbb79
 
 * Upload a PDF file
 * Ask questions related to the document
@@ -121,7 +167,11 @@ streamlit run ui.py
 
 ---
 
+<<<<<<< HEAD
 ## 🧪 Example Use Case
+=======
+## Example Use Case
+>>>>>>> 17b932b0420514afcb49ba5a14b101cde39fbb79
 
 * Academic notes Q&A
 * Company policy document search
@@ -130,7 +180,11 @@ streamlit run ui.py
 
 ---
 
+<<<<<<< HEAD
 ## ✅ Key Highlights
+=======
+##  Key Highlights
+>>>>>>> 17b932b0420514afcb49ba5a14b101cde39fbb79
 
 * Strict document-grounded answering (no hallucination)
 * Modular and scalable RAG architecture
@@ -139,7 +193,11 @@ streamlit run ui.py
 
 ---
 
+<<<<<<< HEAD
 ## 📌 Future Enhancements
+=======
+## Future Enhancements
+>>>>>>> 17b932b0420514afcb49ba5a14b101cde39fbb79
 
 * Support for multiple PDFs at once
 * Chat history memory
