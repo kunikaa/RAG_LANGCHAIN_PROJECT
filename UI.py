@@ -6,7 +6,7 @@ st.set_page_config(page_title="AI PDF Search & Assistant", layout="wide")
 
 # ================= MAIN TITLE =================
 st.title("📄 AI PDF Search & General Assistant")
-st.caption("Search inside your PDF or ask general AI questions")
+st.caption("Search inside your PDF ")
 
 # ================= PDF SEARCH SECTION =================
 st.subheader("📘 Search Inside PDF")
